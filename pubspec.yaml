@@ -1,0 +1,23 @@
+name: gofile_dart
+description: >-
+              This package wrap the [Gofile](https://gofile.io) API.
+              It allow to use the API in a simple way.
+version: 0.0.1
+homepage: https://github.com/shalien/gofile_dart
+repository: https://github.com/shalien/gofile_dart
+issue_tracker: https://github.com/shalien/gofile_dart/issues
+
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
+  dotenv: ^3.0.0
+dependencies: 
+  http: ^0.13.4
+
+
+false_secrets:
+  - example/*.dart
